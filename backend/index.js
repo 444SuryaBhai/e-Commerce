@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 //Databae Connection with MongoDB
-mongoose.connect("mongodb+srv://msuryateja48:N48oG3FvENfMvV8I@cluster0.x0j21.mongodb.net/suryatrades");
+mongoose.connect();
 
 
 
