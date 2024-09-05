@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 //Databae Connection with MongoDB
-mongoose.connect();
+mongoose.connect(process.env.MONGODB_URI);
 
 
 
