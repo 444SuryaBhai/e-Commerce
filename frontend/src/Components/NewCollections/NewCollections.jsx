@@ -7,7 +7,7 @@ export const NewCollections = () => {
   const [new_collection, setNew_Collections] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:4000/newcollections')
+    fetch('https://smart-shopper-e79a.onrender.com/newcollections')
       .then((response) => response.json())
       .then((data) => setNew_Collections(data));
   }, [])
