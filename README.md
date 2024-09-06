@@ -1,3 +1,7 @@
+#Smart Shopper
+Be smart shop at Smart Shopper
+
+
 # Creating the content for README.md based on the component functionality
 readme_content = """
 # AddProduct Component
