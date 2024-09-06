@@ -17,7 +17,7 @@ export const LoginSignUp = () => {
   const login = async () => {
     console.log("Login Function Executed", formData);
     let responseData;
-    await fetch('http://localhost:4000/login', {
+    await fetch('https://smart-shopper-e79a.onrender.com/login', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
@@ -39,7 +39,7 @@ export const LoginSignUp = () => {
   const signup = async () => {
     console.log("signup Function Executed", formData);
     let responseData;
-    await fetch('http://localhost:4000/signup', {
+    await fetch('https://smart-shopper-e79a.onrender.com/signup', {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
