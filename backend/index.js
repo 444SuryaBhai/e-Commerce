@@ -8,6 +8,8 @@ const path = require("path");
 const cors = require("cors");
 const { log } = require("console");
 const { type, userInfo } = require("os");
+require('dotenv').config();
+
 
 app.use(express.json());
 app.use(cors());
